@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+:root {
+    --clr-black-default: #000;
+    --clr-black: #263238;
+    --clr-gray: #8F95A5;
+}
+* {
+    color: var(--clr-black-default);
+    font-family: 'Poppins';
+}
+a {
+    color: var(--clr-black);
+    text-decoration: none;
+}
+.btn-outline-secondary {
+    color: var(--clr-black-default);
+    border: 2px solid var(--clr-black);
+    height: 7vh;
+}
+.w-90 {
+    width: 90%;
+}
+header .btn.btn-dark {
+    height: 12vh;
+}
+p.my-5 {
+    color: var(--clr-gray);
+}
