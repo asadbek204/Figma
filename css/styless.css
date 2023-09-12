@@ -7,6 +7,7 @@
 * {
     color: var(--clr-black-default);
     font-family: 'Poppins';
+    box-sizing: border-box;
 }
 a {
     color: var(--clr-black);
@@ -25,4 +26,7 @@ header .btn.btn-dark {
 }
 p.my-5 {
     color: var(--clr-gray);
+}
+.section-1.d-flex .card {
+    background: #F5F5F5;
 }
