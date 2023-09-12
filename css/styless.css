@@ -52,6 +52,9 @@ p {
 .vh-5 {
     height: 5vh;
 }
+section:first-child .card {
+    background-color: #F5F5F5;
+}
 @media (max-width: 1284px) {
     button.fs-3 {
         font-size: 1.25rem !important;
